@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: 46px 56px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_ul {
+  display: flex;
+  gap: 11px;
+}
+
+.menu_ul {
+  display: flex;
+  gap: 42px;
+}
+
+a.nav__link {
+  color: #000;
+
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav__link.products {
+  position: relative;
+  padding: 9px;
+}
+
+.nav__link.products::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width:72px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #000;
+}
+
+.nav_icons {
+  display: flex;
+  gap: 25px;
+}
+
+.main {
+  max-width: 1440px;
+  margin-inline: auto;
+  display: flex;
+  gap: 40px;
+  margin-bottom: 64px;
+}
+
+.aside {
+  max-width: 252px;
+}
+
+.aside_container {
+  padding: 51px 56px;
+}
+
+.aside__li {
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 54px;
+}
+
+a.aside__link {
+  color: #000;
+  font-size: 15.71px;
+  font-weight: 500;
+}
+
+.img_container {
+  display: flex;
+  gap: 21px;
+  max-width: 1100px;
+}
+
+.first_part {
+  margin-bottom: 21px;
+}
+
+.second_part {
+  gap: 21px;
+  display: flex;
+}
+
+.third_part {
+  gap: 21px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.W1 {
+  margin-bottom: 21px;
+}
+
+.W7 {
+  margin-bottom: 21px;
+}
+
+.aside__li.light {
+  display: flex;
+  gap: 12px;
+}
+
+.aside__li.clothes{
+  display: flex;
+  gap: 12px;
+}
+
+.aside__li.shoes{
+  display: flex;
+  gap: 12px;
+}
+
+.aside__li.bag{
+  display: flex;
+  gap: 12px;
+}
+
+.aside__li.sport{
+  display: flex;
+  gap: 12px;
+}
+
+.aside__li.gift{
+  display: flex;
+  gap: 12px;
+}
+
+.aside__li.diamant{
+  display: flex;
+  gap: 12px;
+}
+
